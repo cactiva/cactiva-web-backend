@@ -1,0 +1,12 @@
+POST http://localhost:3000/api/jwt/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "manager1",
+    "password": "12345"
+}
+
+POST http://localhost:3000/api/jwt/verify HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJoYWRpX2JfckB5YWhvby5jb20iLCJ1c2VybmFtZSI6Im1hbmFnZXIxIiwibGFzdF9sb2dpbiI6bnVsbCwiaXNfZGVsZXRlZCI6bnVsbCwiZnVsbG5hbWUiOiJBbGkiLCJ0aW1lIjoiU2F0IEphbiAxMSAyMDIwIDA5OjEyOjMyIEdNVCswNzAwIChXZXN0ZXJuIEluZG9uZXNpYSBUaW1lKSIsImh0dHBzOi8vaGFzdXJhLmlvL2p3dC9jbGFpbXMiOnsieC1oYXN1cmEtYWxsb3dlZC1yb2xlcyI6WyJhZG1pbiJdLCJ4LWhhc3VyYS1kZWZhdWx0LXJvbGUiOiJhZG1pbiIsIngtaGFzdXJhLXVzZXItaWQiOiIzIn0sImlhdCI6MTU3ODcwODc1Mn0.B6ndRrOSg9_66rR1oNpU-ktCH714QXkE58ZBPIBjJEM
+
+GET http://localhost:3000/api/db/columns?table=m_area

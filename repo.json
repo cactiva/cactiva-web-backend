@@ -1,0 +1,16 @@
+{
+  "root": "/../../src/app/repo/",
+  "mode": "production",
+  "folder": {
+    "visit": {
+      "role": [],
+      "fileType": ["jpg", "jpeg"],
+      "maxSize": 10242880
+    },
+    "event": {
+      "role": [],
+      "fileType": ["jpg", "jpeg"],
+      "maxSize": 10242880
+    }
+  }
+}

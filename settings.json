@@ -1,0 +1,21 @@
+{
+  "name": "cactiva-backend",
+  "backend": {
+    "protocol": "https",
+    "port": "443",
+    "host": "cactiva.web.andromedia.co.id",
+    "mode": "dev"
+  },
+  "hasura": {
+    "host": "https://cactiva-hasura.web.andromedia.co.id",
+    "secret": "Cactiva123oke",
+    "port": "443"
+  },
+  "db": {
+    "port": "5432",
+    "host": "db.web.andromedia.co.id",
+    "user": "postgres",
+    "password": "andromedia123oke",
+    "database": "cactivaDB"
+  }
+}
